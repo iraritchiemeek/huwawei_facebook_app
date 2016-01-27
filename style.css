@@ -35,7 +35,7 @@ html, body{
 	height: 0;
 	padding-top: 43.4%;
 	background-image: url('imgs/header_image.png');
-	background-size: contain;
+	background-size: 100%;
 	background-repeat: no-repeat;
 }
 
@@ -95,6 +95,7 @@ html, body{
 }
 
 #huawei_form input[type=text]{
+	font-size: 20px;
 	height: 65px;
 }
 
@@ -106,19 +107,22 @@ html, body{
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: black;
 	font-family: 'Frutiga Light';
 	font-size: 20px;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-
+ 	color: black;
  	font-family: 'Frutiga Light';
  	font-size: 20px;
 }
 :-ms-input-placeholder { /* IE 10+ */
+	color: black;
 	font-family: 'Frutiga Light';
 	font-size: 20px;
 }
 :-moz-placeholder { /* Firefox 18- */
+	color: black;
 	font-family: 'Frutiga Light';
 	font-size: 20px;
 }
