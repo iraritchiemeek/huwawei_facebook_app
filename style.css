@@ -62,10 +62,10 @@ html, body{
 #legal {
 	text-align: center;
 	width: 50%;
-	font-size: 1.5vw;
+	font-size: 18px;
 	position: absolute;
 	left: 50%;
-	top: 90%;
+	top: 750px;
 	overflow-y: auto;
 	transform: translate(-50%,-50%);	
 }
@@ -79,6 +79,12 @@ html, body{
 	top: 450px;
 	overflow-y: auto;
 	transform: translate(-50%,-50%);
+}
+
+#legal a:visited, #legal a:active, #legal a:hover, #legal a{
+	color: #323232;
+	font-family: "Frutiga Roman";
+	text-decoration: none;
 }
 
 #huawei_form input {
@@ -107,21 +113,25 @@ html, body{
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	padding-left: 5px;
 	color: black;
 	font-family: 'Frutiga Light';
 	font-size: 20px;
 }
 ::-moz-placeholder { /* Firefox 19+ */
+	margin-left: 5px;
  	color: black;
  	font-family: 'Frutiga Light';
  	font-size: 20px;
 }
 :-ms-input-placeholder { /* IE 10+ */
+	margin-left: 5px;
 	color: black;
 	font-family: 'Frutiga Light';
 	font-size: 20px;
 }
 :-moz-placeholder { /* Firefox 18- */
+	margin-left: 5px;
 	color: black;
 	font-family: 'Frutiga Light';
 	font-size: 20px;
