@@ -71,6 +71,7 @@ html, body{
 }
 
 #huawei_form {
+	padding: 10px 0 0 0;
 	font-family: 'Frutiga Roman';
 	width: 60%;
 	font-size: 1.5vw;
@@ -111,6 +112,7 @@ html, body{
 	height: 75px;
 	width: 99%;
 }
+
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 	padding-left: 5px;
