@@ -3,7 +3,7 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
+	<!-- <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/huawei_assets/style.css"> -->
 	<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,500' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -11,13 +11,16 @@
 		<div id="header_image"></div>
 		<div id="content">
 			<div id="tagline">Get the inside scoop on new </br> technologies and promotions.</div>
-			<form id="huawei_form">
-				<input type="text" name="firstname" placeholder="Full Name..."><br>
-				<input type="text" name="firstname" placeholder="Email Address..."><br>
-				<input type="text" name="firstname" placeholder="Phone..."><br>
-				<input type="text" name="firstname" placeholder="Town / City..."><br>
+			<form action="/forms/huaweiform/" method="post" abineguid="29E9BBAFBA754A2F9AE7E94D22C1319C" id="huawei_form">        
+				<label for="id_full_name"></label><input class="charfield required" id="id_full_name" maxlength="2000" name="full_name" required="" type="text" placeholder="Full Name..."></br>
+				<label for="id_email"></label> <input class="emailfield required" id="id_email" maxlength="2000" name="email" required="" type="text" placeholder="Email..."></br>
+				<label for="id_phone"></label> <input class="floatfield required" id="id_phone" name="phone" required="" type="text" placeholder="Phone..."></br>
+				<label for="id_town_city"></label> <input class="charfield required" id="id_town_city" maxlength="2000" name="town_city" required="" type="text" placeholder="Town / City..."></br>
+				<div style="clear:left;">&nbsp;</div>
 				<input type="submit" value="Submit">
-			</form>
+				<!-- <input type="submit" value="Thank You" id="submit_sent"> -->
+
+		    </form>
 			<div id="legal">
 				<a href="http://consumer.huawei.com/en/privacy-policy/index.htm">Privacy Policy</a>
 			</div>

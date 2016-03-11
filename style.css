@@ -13,6 +13,7 @@ html, body{
 	left: 50%;
 	top: 50%;
 	overflow-y: auto;
+	-webkit-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
 }
 
@@ -42,6 +43,7 @@ html, body{
 	left: 50%;
 	top: 100px;
 	overflow-y: auto;
+	-webkit-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);	
 }
 
@@ -53,6 +55,7 @@ html, body{
 	left: 50%;
 	top: 750px;
 	overflow-y: auto;
+	-webkit-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);	
 }
 
@@ -64,8 +67,9 @@ html, body{
 	font-size: 1.5vw;
 	position: absolute;
 	left: 50%;
-	top: 450px;
+	top: 400px;
 	overflow-y: auto;
+	-webkit-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
 }
 
@@ -81,6 +85,7 @@ html, body{
 	position: relative;
 	left: 50%;
 	overflow-y: auto;
+	-webkit-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
 	background-color: #EFEFEF;	
 	border: 1px solid black;
@@ -91,15 +96,19 @@ html, body{
 
 #huawei_form input[type=text]{
 	font-size: 20px;
-	height: 65px;
+	height: 55px;
 }
 
 #huawei_form input[type=submit] {
 	font-size: 25px;
 	font-family: 'Raleway';
 	font-weight: 500;
-	height: 75px;
+	height: 65px;
 	width: 99%;
+}
+
+#submit_sent {
+	border: none !important;
 }
 
 
